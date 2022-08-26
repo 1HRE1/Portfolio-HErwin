@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.pic {
+    position: left;
+    background-image: 
+}
+.text-1 {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1::after {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: "Portfolio";
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
