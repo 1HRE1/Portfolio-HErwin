@@ -23,5 +23,19 @@ h1::after {
     color: rgb(0, 0, 0);
     margin-left: 15px;
 }
-
+.header-image nav {
+    padding-top: 95px;
+    margin-right: 90px;
+    border-right: 25px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+}
+.header-image nav ul {
+    list-style-type: none;
+}
+.header-image nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 
