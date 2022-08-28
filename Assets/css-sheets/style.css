@@ -46,4 +46,18 @@ a:visited {
     text-decoration: none; 
     color: rgb(0, 0, 0); 
    }
+.aboutme {
+    width: 12%;
+    height: 350px;
+    padding: 25px;
+    border: 25px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}  
 
