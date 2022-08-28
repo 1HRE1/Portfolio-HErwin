@@ -13,7 +13,7 @@
 .text-1 {
     position: absolute;
     top: 5px;
-    left: 100px;
+    left: 95px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -22,6 +22,10 @@ h1::after {
     content: "Portfolio";
     color: rgb(0, 0, 0);
     margin-left: 15px;
+}
+.navbar a:hover {
+    background: black;
+    color: white;
 }
 .header-image nav {
     padding-top: 95px;
@@ -38,4 +42,8 @@ h1::after {
     display: inline-block;
     margin-left: 25px;
 }
+a:visited { 
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+   }
 
