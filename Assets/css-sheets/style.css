@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+    display: block;
+    flex-wrap: wrap;
+
 }
 
 .text-1 {
@@ -25,6 +28,7 @@ h1::after {
 }
 .navbar{
     color: black;
+    display: inline-flex;
 }
 .navbar a:hover {
     background: black;
@@ -41,6 +45,7 @@ h1::after {
 }
 .header-image nav ul {
     list-style-type: none;
+
 }
 .header-image nav ul li {
     display: inline-block;
