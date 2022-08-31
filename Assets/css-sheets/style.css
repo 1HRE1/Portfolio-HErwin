@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   .container-fill {
     background-image:url(../Images/whitebrick.jpeg);
@@ -161,8 +162,26 @@
     padding: 0 30px;
     display: block;
   }
+  /* Need to decide what font to use bc trebuchet ms looks good too. */
+
+.footer {
+    background-image:url(../Images/whitebrick.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+    padding: 60px;
+}
+.footer h4 {
+    font-size: 20px;
+}
+
+
   
-/* to set at half width to include 2 pics, double .main and change twin to margin-left: 50%; (have not tested yet. Need to test grtid to see if better route.     */
+/* To set at half width to include 2 pics, double .main and change twin to margin-left: 50%; (have not tested yet. Need to test grtid to see if better route.     */
 .main 
     background-color: #0151cc;
     background-image: url(../Images/Selfie.jpg);
@@ -175,4 +194,14 @@
     padding: 0 30px;
     display: block;
   }
+ 
+  /* The below is hte old css code for the footer; keep until you know you know for sure you no longer need. */
+    padding: 50px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image:url(../Images/whitebrick.jpeg);
+    background-size: 70%;
+    margin: 0%;
+}
   
