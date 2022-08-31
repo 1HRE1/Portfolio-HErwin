@@ -8,23 +8,23 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    display: block;
-    flex-wrap: wrap;
-
 }
 
 .text-1 {
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 95px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-grow: inherit;
 }
 h1::after {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     content: "Portfolio";
+    float: right;
     color: rgb(0, 0, 0);
     margin-left: 15px;
+    flex: 1;
 }
 .navbar{
     color: black;
@@ -51,6 +51,7 @@ h1::after {
     display: inline-block;
     margin-left: 25px;
 }
+
 a:visited { 
     text-decoration: none; 
     color: rgb(0, 0, 0); 
@@ -77,4 +78,3 @@ a, a:hover, a:focus, a:active {
     padding: 20px;
  
 }
-
