@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   .container-fill {
     background-image:url(../Images/whitebrick.jpeg);
@@ -47,7 +46,6 @@
     position: relative;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
   }
   .navbar a:hover {
     background: black;
@@ -57,6 +55,10 @@
     text-decoration: none; 
     color: rgb(0, 0, 0); 
   }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  } 
   nav ul {
     list-style-type: none;
     padding-top: 5px;
@@ -64,105 +66,23 @@
   nav ul li {
     display: inline-block;
     margin-left: 50px;
-  }
-  a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-  }  
+  } 
+  /* This selfie is just a placement pic until I fix the Horiseon page, and add the container/grid for the other 2 projects (xoxoinventory.com & shopluxuryelements.com)  */
   .main {
     background-color: #0151cc;
     background-image: url(../Images/Selfie.jpg);
     color: #fff;
     min-height: 400px;
-    margin-right: 50%;
-  }
-  .container-2 {
-    margin: 0 auto;
-    padding: 0 30px;
-    display: block;
-  }* {
     margin: 0;
-    padding: 0;
-  }
-  .container-fill {
-    background-image:url(../Images/whitebrick.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    height: 134px;
-  
-  }
-  .container {
-    position: relative;
-    text-align: left;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  .top-right {
-    position: relative;
-    top: -130px;
-    left: 25px;
-  }
-  .Portfolio {
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: relative;
-    top: -148px;
-    left: 100px;
-  }
-  .header {
-    text-align: center;
-    background: black;
-    color: white;
-    font-size: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation: both;
-  }
-  .navbar {
-    background-image: url(../Images/whitebrick.jpeg);
-    background-size: cover;
-    height: 29px;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-  }
-  .navbar a:hover {
-    background: black;
-    color: white;
-  }
-  a:visited { 
-    text-decoration: none; 
-    color: rgb(0, 0, 0); 
-  }
-  nav ul {
-    list-style-type: none;
-    padding-top: 5px;
-  }
-  nav ul li {
-    display: inline-block;
-    margin-left: 50px;
-  }
-  a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-  }  
-  .main {
-    background-color: #0151cc;
-    background-image: url(../Images/Selfie.jpg);
-    color: #fff;
-    min-height: 400px;
-    margin: auto;
   }
   .container-2 {
     margin: 0 auto;
     padding: 0 30px;
     display: block;
   }
-  /* Need to decide what font to use bc trebuchet ms looks good too. */
+
+
+  /* Insert code here for navbar correlating boxes. */
 
 .footer {
     background-image:url(../Images/whitebrick.jpeg);
