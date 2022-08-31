@@ -1,17 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>HErwin Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--INPUT RESET SHEET HERE-->
-    <link rel="stylesheet" href="./Assets/css-sheets/style.css" />  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/css-sheets/style.css" /> 
+  <title>HErwin Portfolio</title>
 </head>
 <body>
-    <header class="header-image">
-        <h1 class="text-1">Heidi Erwin</h1>
-        <img src="Assets/Images/Selfie.jpg" alt="image of applicant" width="15%" height="90%">
-    </header>
-        <nav class="navbar">
+  <section class="container-fill">
+    <div class="container">
+     <img src="Assets/Images/Selfie.jpg" alt="image of applicant" width=100px height=90%>
+     <div class="top-right">Heidi Erwin</div>
+   </div>
+   <div class="container">
+     <div class="Portfolio">Portfolio</div>
+   </div>
+  </section>
+  <header class="header">
+      <h1>Welcome</h1>
+  </header>
+    <nav class="navbar">
             <ul>
                 <li>
                     <a href="#About">About Me</a>
@@ -20,33 +29,62 @@
                     <a href="#Education">Education</a>
                 </li>
                 <li>
-                    <a href="#Corporate Work Experience">Corporate Work Experience</a>
+                    <a href="#Work Experience">Work Experience</a>
                 <li>
                     <a href="#Coding-e-commerce">Coding, e-Commerce Projects</a>
                 </li>
             </ul>
-            </nav>
-        
-        <aside class="aboutme" id="About">
-            <p><b>EMAIL:</b></p>
-            <a href="mailto:heidi.renae.erwin@gmail.com">heidi.renae.erwin@gmail.com</a>
-            <br>
-            </br>
-            <p><b>PHONE:</b></p>
-            <p>559-280-8057</p>
-            <p><i>(texting or voice mails preferred)</i></p>
-            <br>
-            </br>
-            <p><b>ABOUT:</b></p>
-            <p>Former c-level executive assistant/project manager for 15 years, going through a career change. Enrolled in full stack web and app development certification program. Searching for a junoir development position, UX/UI designing position, or a project management position.</p>
-        </aside>
-        <article id="Coding-e-commerce">
-            <h2 class="coding">CODING + e-Commerce Projects</h2>
-            <p></p>
-            <hr>
+    </nav>
 
-        </article>
-        
+    <!-- uploading and ppausing here until css color animation is added to welcome heading (h1 tag). -->
+
+    <main class="main">
+      <section class="container-2">
+        <div>
+          <h2>Horiseon</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, illo architecto impedit expedita officiis blanditiis deleniti neque, ipsum numquam pariatur sed ipsam autem reprehenderit amet.
+          </p>
+        </div>
+      </section>
     </main>
+<!-- need to mess around with container-2 to see if needed; currently when deleted doesn't make a diff. research parent-child relationship again! -->
+    <section class="boxes">
+      <div class="container-3">
+        <div class="box">
+          <h3><i class="fas fa-arrows-alt-v"></i> About Me</h3>
+          <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit explicabo quod asperiores repellat eos est alias quaerat atque, eius ipsam consequatur mollitia doloribus voluptates.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3><i class="fas fa-arrows-alt"></i>Education</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, id nihil corrupti quae non aspernatur.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3><i class="fas fa-mobile"></i>Work Experience</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, animi sunt eum assumenda provident fugiat harum nesciunt nam? Omnis, excepturi accusantium? Sapiente esse nostrum enim.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3><i class="fas fa-mobile"></i>Coding & e-Commerce</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae nesciunt facilis suscipit aspernatur delectus accusantium veniam eos dignissimos eligendi consequuntur mollitia laborum, tempora illo, veritatis quia laudantium consequatur minima libero rerum odit provident voluptas facere. Nesciunt aspernatur praesentium, saepe ducimus sequi fugit omnis harum quam impedit, minus magnam amet.
+        </p>
+      </div>
+    </section>
+
+
+
+  
+  
 </body>
+</html>
 
