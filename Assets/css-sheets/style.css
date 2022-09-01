@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   .container-fill {
     background-image:url(../Images/whitebrick.jpeg);
@@ -36,6 +37,7 @@
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     animation: both;
+
   }
   .navbar {
     background-image: url(../Images/whitebrick.jpeg);
