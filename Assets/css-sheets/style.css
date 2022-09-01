@@ -208,7 +208,7 @@
 
   
 /* To set at half width to include 2 pics, double .main and change twin to margin-left: 50%; (have not tested yet. Need to test grtid to see if better route.     */
-.main 
+/* .main 
     background-color: #0151cc;
     background-image: url(../Images/Selfie.jpg);
     color: #fff;
@@ -222,7 +222,7 @@
   }
  
   /* The below is hte old css code for the footer; keep until you know you know for sure you no longer need. */
-    padding: 50px;
+    /* padding: 50px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -230,4 +230,4 @@
     background-size: 70%;
     margin: 0%;
 }
-  
+   */
