@@ -12,7 +12,7 @@
     height: 134px;
   
   }
-  .container {
+  .container-1 {
     position: relative;
     text-align: left;
     color: white;
@@ -142,18 +142,30 @@
 .neon-wrapper {
     display:inline-flex;
     filter: brightness(200%);
-
     overflow: hidden;
 }
-  /* This selfie is just a placement pic until I fix the Horiseon page, and add the container/grid for the other 2 projects (xoxoinventory.com & shopluxuryelements.com)  */
-  .main {
-    background-color: #0151cc;
-    background-image: url(../Images/Selfie.jpg);
-    color: #fff;
-    min-height: 400px;
-    margin: 0;
-  }
+  /* This selfie is just a placement pic until I fix the Horiseon page */
+
   .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+  }
+
+.Horiseon {
+    background-color: black;
+    background-image: url(../Images/Selfie.jpg);
+    background-size: contain;
+    color:white;
+    width: 800px;
+    height: 400px;
+  }
+
+
+
+
+
+  .container-3 {
     margin: 0 auto;
     padding: 0 30px;
     display: block;
@@ -208,7 +220,7 @@
 
   
 /* To set at half width to include 2 pics, double .main and change twin to margin-left: 50%; (have not tested yet. Need to test grtid to see if better route.     */
-/* .main 
+/* .main (this tag decodes the w & h)
     background-color: #0151cc;
     background-image: url(../Images/Selfie.jpg);
     color: #fff;
