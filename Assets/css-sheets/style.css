@@ -19,7 +19,7 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .top-right {
-  position: relative;
+  position: inherit;
   top: -130px;
   left: 25px;
 }
